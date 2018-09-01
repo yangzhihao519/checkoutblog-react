@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+.pri-btn{
+  background-color: #003a51;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.flex{
+  display: flex;
+}

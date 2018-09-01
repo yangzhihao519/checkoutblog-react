@@ -1,0 +1,157 @@
+.blog-header{
+  width: 90%;
+  margin: auto;
+  max-width: 900px;
+  min-width: 600px;
+}
+
+.blog-header--content{
+  padding: 40px 80px 80px 80px;
+  background-color:  #d8e8ec;
+}
+
+.blog-header--logo{
+  margin-bottom: 50px;
+  height: 25px;
+}
+
+.blog-header--title{
+  font-size: 35px;
+  font-weight: 400;
+  color: #003a51;
+  flex: 1;
+}
+
+.blog-header--add-btn{
+  float: right;
+}
+
+.blog-content{
+  width: 60%;
+  margin: auto;
+  max-width: 800px;
+  min-width: 600px;
+}
+
+.blog-post-list{
+  margin-top: 50px;
+}
+
+.blog-post-item{
+  display: flex;
+  margin-top: 15px;
+}
+
+.blog-post-item:last-child{
+  margin-bottom: 50px;
+}
+
+.blog-post-item--image-container{
+  flex: 1;
+}
+
+.blog-post-item--image{
+  width: 100%;
+  height: auto;
+}
+
+.blog-post-item--content{
+  flex: 2;
+  padding: 20px 40px 20px 40px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.blog-post-item--content--post-date{
+  color: #003a51;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.blog-post-item--content--title{
+  color: #003a51;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.blog-post-item--content--summary{
+  color: #999;
+  font-size: 14px;
+}
+
+.blog-post-item--content--actions{
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  text-align: right;
+  display: flex;
+}
+
+.blog-post-item--content--action-btn{
+  font-size: 12px;
+  background-color: #325f72;
+  color: #fff;
+  border: none;
+  margin-right: 1px;
+  cursor: pointer;
+  padding: 5px 15px 5px 15px;
+}
+
+.blog-modal{
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #003a51;
+  background-color: rgba(0,58,81,0.4);
+}
+
+.blog-modal__show{
+  display: block;
+}
+
+.blog-modal__hide{
+  display: none;
+}
+
+.blog-post-form{
+  background-color: #ddd;
+  padding: 60px 30px 30px 30px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 50%;
+  box-shadow: 0 0 3px #555;
+}
+
+.blog-post-form--close{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #003a51;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.blog-post-form--content{
+  width: 80%;
+  min-width: 250px;
+  margin: auto;
+}
+
+.blog-post-form--content--input{
+  border-radius: 3px;
+  color: #333;
+  background-color: #fff;
+  font-size: 14px;
+  height: 25px;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+}
